@@ -577,6 +577,7 @@ main {
     margin: auto;
     padding: 10px;
     height: 60vh;
+    margin-bottom: 6rem;
   }
   
   .screen {
@@ -779,7 +780,7 @@ footer .footer-icons{
     border-radius: 2rem;
     width: 30%;
     height: 90%;
-    margin-left: 58rem;
+    margin-left: 50rem;
 
 }
 
@@ -1048,7 +1049,7 @@ footer .footer-icons i{
   
 }
 }
-@media (min-width: 350px) and (max-width: 768px){
+@media (min-width: 350px) and (max-width: 760px){
     .background .head-right{
         display: none;
     }
@@ -1278,7 +1279,7 @@ footer .footer-icons i{
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 761px) and (max-width: 1024px) {
 
     .header-content .right-content img{
         position: absolute;
