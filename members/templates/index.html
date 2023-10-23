@@ -1,0 +1,284 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ######### bootstarp##### -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- ####### box icon##### -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></head>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
+
+    <link rel="stylesheet" href="/static/style.css">
+    <title>sonira</title>
+</head>
+<body>
+    <button id="scroll-top-button" onclick="scrollToTop()">
+        <i class='bx bxs-up-arrow-circle' style="color: #11574a;"></i>
+    </button> 
+    <header id="home">
+        <div class="background">
+            <div class="head-right"></div>
+            <div class="head-left"></div>
+        </div>
+        <div class="header-box">
+            <div class="navbar lg-navbar">
+                <!-- <a href="#home">HOME</a> -->
+                <a href="#about">ABOUT</a>
+                <a href="#services">SERVICES</a>
+                <a href="#my-projects">OUR WORK</a>
+                <a href="#contact-us">CONTACT US</a>
+                
+            </div>
+            <div class="navbar icons-navbar">
+                <!-- <a href="#home"><i class='bx bx-home-alt-2' ></i></a> -->
+                <a href="#about"><i class='bx bx-user'></i></a>
+                <a href="#services"><i class='bx bxs-wrench'></i></a>
+                <a href="#my-projects"><i class='bx bx-briefcase'></i></a>
+                <a href="#contact-us"><i class='bx bx-envelope'></i></a>
+     
+            </div>
+            
+            <div class="header-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="left-content text-center">
+                            <h1 class="fw-semibold fs-1 ">SONIRA SHOKOHYAN</h1> 
+                            <br>
+                            <p >Experience attractive websites, stunning designs with  integrated functionality with us.</p><br>
+                            
+                            <a class=" but-1  btn btn-outline-success fw-semibold p-3" href="{% url 'download' %}">DOWNLOAD CV</a>
+                         </div>
+                         <div class="right-content "> <img src="/static/images/Untitled-1.png " alt="" class="img-fluid  "></div>
+                    </div>
+                </div>
+ 
+                
+            </div>
+        </div>
+
+    </header>
+
+    <div class="custom-shape-divider-bottom-1696573078">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <div class="container about" id="about">
+        <div class="row">
+            <div class="second-left"><img src="/static/images/dark green ssh .png " class="img-fluid"></div>
+            <div class="second-right ">
+                <h2 class="fw-bold"> <span>ABout </span> ME</h2>
+                <h3 class="fs-1">Hi there! I'm Sonira Shokohyan,</h3>
+                <p> a web developer with a passion for creating beautiful and functional websites. With expertise in Python, HTML, CSS,  JavaScript, Bootstrap, Django, Git and GitHub, I have the skills to bring your vision to life. 
+                In addition to my experience in web development, I'm also an engineer with a background in AutoCAD and engineering. This unique skill set allows me to approach website design with a critical eye for detail and functionality.
+                Whether you're looking to create a sleek e-commerce site, a dynamic online portfolio, or anything in between, I'm here to help. With my knowledge and expertise, I can create the perfect website to meet your needs.
+                Thank you for taking the time to learn a bit about me. I welcome the opportunity to work with you on your next project.</p>
+                <div class="about-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100052853464259&mibextid=2JQ9oc"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://instagram.com/shokohyansonira?igshid=NGVhN2U2NjQ0Yg=="><i class='bx bxl-instagram'></i></a>
+                    <!-- <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="#"><i class='bx bxl-telegram'></i></a> -->
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="services" id="services">
+
+        <div class="services-text text-center">
+            <h1>OUR SERVICES</h1>
+            <p> we provide customized solutions to elevate your business's online presence.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+            <div class="col-12 col-lg-6 text-center services-content">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="/static/images/brush.svg ">
+                      <h5 class="card-title">Frontend Development Services:</h5>
+                      <p class="card-text">- Responsive web design <br> -Custom website development <br> -UI/UX design services <br> -Frontend web application development <br> -Performance optimization</p>
+                    </div>
+                  </div>
+                <!-- <h2>Frontend Development Services:</h2>
+                <p>- Responsive web design <br> -Custom website development <br> -UI/UX design services <br> -Frontend web application development <br> -Performance optimization
+                </p> -->
+            </div>
+            <div class="col-12 col-lg-6 text-center services-content">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="/static/images/code.svg ">
+                      <h5 class="card-title">Backend Development Services:</h5>
+                      <p class="card-text">- Backend development using Python & Django framework <br> -Database design & development <br> -Security & data privacy implementation <br> -Integration with third-party services and APIs <br></p>
+                    </div>
+                  </div>
+                <!-- <h2>Backend Development Services:</h2>
+                <p>- Back-end development using Python and Django framework <br> -Database design and development <br> -Security and data privacy implementation <br> -Integration with third-party services and APIs <br> -Real-time data processing and analytics</p> -->
+            </div>
+          
+        </div>
+        </div>
+
+    </div>
+
+    <div class="freelancer-background"></div>
+
+    <section class="freelancer">
+        <div class="text-freelancer">
+            <h1>Freelance Services Available</h1>
+            <h3>Our team crafts beautiful designs and provide strategic services to help your business succeed.</h3>
+            <a href="{% url 'download' %}" class="but-1 btn btn-outline-light fw-semibold" id="btn">DOWNLOAD CV</a>
+        </div>
+
+    </section>
+
+    <section class="work my-projects " id="my-projects">
+        <div class="project-text">
+            <h1>  <span>OUR</span> Works</h1>
+            <p> we provide customized solutions to elevate your business's online presence.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                {% for x in projects %}
+                <main class="main2 col-lg-4 col-md-4 col-12">
+                    <div class = "carder">
+                    <img src="{{x.image_property.url}}" alt="{{x.name}}">
+                    <div class="card-content">
+                        <h2>
+                        {{x.name}}
+                        </h2>
+                        <p>
+                        {{x.description}}
+                        </p>
+                        <a href="{{x.link}}" class="button">
+                        Find out more 
+                        <span class="material-symbols-outlined">
+                            arrow_right_alt
+                        </span>
+                        </a>
+                    </div>
+                    </div>
+                </main>
+                {% endfor %}
+            </div>
+        </div>
+        
+        <!-- <div class="container">
+            <div class="row">
+                {% for x in projects %}
+                <main class="main2 col-lg-4 col-12">
+                    <div class = "carder">
+                    <img src="{{x.image_property.url}}" alt="{{x.name}}">
+                    <div class="card-content">
+                        <h2>
+                        {{x.name}}
+                        </h2>
+                        <p>
+                        {{x.description}}
+                        </p>
+                        <a href="{{x.link}}" class="button">
+                        Find out more 
+                        <span class="material-symbols-outlined">
+                            arrow_right_alt
+                        </span>
+                        </a>
+                    </div>
+                    </div>
+                </main>
+                {% endfor %}
+            </div>
+        </div> -->
+    </section>
+
+    <section class="contact-us" id="contact-us">
+        <div class="container12">
+            <form method="post">
+                {% csrf_token %}
+                <div class="screen">
+                <div class="screen-header">
+                    <div class="screen-header-left">
+                    <div class="screen-header-button close"></div>
+                    <div class="screen-header-button maximize"></div>
+                    <div class="screen-header-button minimize"></div>
+                    </div>
+                    <div class="screen-header-right">
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                    </div>
+                </div>
+                <div class="screen-body">
+                    <div class="screen-body-item left">
+                    <div class="app-title">
+                        <span>CONTACT</span>
+                        <span>US</span>
+                    </div>
+                    <div class="app-contact">CONTACT INFO : +93 797987569</div>
+                    </div>
+                    <div class="screen-body-item">
+                    <div class="app-form">
+                        <div class="app-form-group">
+                        <input class="app-form-control" placeholder="NAME" name="name" >
+                        </div>
+                        <div class="app-form-group">
+                        <input class="app-form-control" placeholder="EMAIL" name="email">
+                        </div>
+                        <div class="app-form-group">
+                        <input class="app-form-control" placeholder="CONTACT NO" name="phone">
+                        </div>
+                        <div class="app-form-group message">
+                        <input class="app-form-control" placeholder="MESSAGE" name="message">
+                        </div>
+                        <div class="app-form-group buttons">
+                        <button class="but-1  btn btn-outline-success fw-semibold p-3 mt-5" type="submit">SEND</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </form>
+          </div>
+    </section>
+
+    <footer>
+        <div class="footer-text">
+            <h1>SONIRA SHOKOHYAN</h1>
+        </div>
+        <div class="footer-icons">
+                <a href="https://www.facebook.com/profile.php?id=100052853464259&mibextid=2JQ9oc"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://instagram.com/shokohyansonira?igshid=NGVhN2U2NjQ0Yg=="><i class='bx bxl-instagram'></i></a>
+                <!-- <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#"><i class='bx bxl-telegram'></i></a> -->
+        </div>
+    </footer>
+
+
+
+    
+    
+    
+    <script>
+        window.addEventListener('scroll', function() {
+            var scrollTopButton = document.getElementById('scroll-top-button');
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollTopButton.classList.add('show');
+            } else {
+                scrollTopButton.classList.remove('show');
+            }
+        });
+        
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
