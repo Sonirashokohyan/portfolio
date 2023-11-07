@@ -9,4 +9,6 @@ class projects(models.Model):
   name=models.CharField(max_length=255,null=True,blank=True)
 
 
+  # sonira
   # Sonira777&
+  #sonira.shokohyan531@gmail.com

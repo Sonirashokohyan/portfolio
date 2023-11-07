@@ -8,6 +8,8 @@ import smtplib
 from email.message import EmailMessage
 from django.contrib import messages
 
+
+
 def home(request):
   if request.method == 'POST':
         # Get the form data
